@@ -1,0 +1,24 @@
+# Виртуальное окружение
+.venv/
+venv/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Секреты (КЛЮЧИ ORCA!)
+.env
+
+# Данные (чтобы не засорять репозиторий большими CSV)
+*.csv
+!test_sales.csv
+
+# Streamlit
+.streamlit/
+
+# Настройки ОС
+.DS_Store
+Thumbs.db
+
+.vscode/
